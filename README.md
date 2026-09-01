@@ -1,14 +1,27 @@
-# Blog App
+# 📝 Blog App
+
+`MERN` `Node.js` `Express` `MongoDB` `React`
+
+> A full MERN-stack blogging platform.
+
+## What is this?
 
 A MERN-stack blogging application — posts, categories, user accounts and
 authentication, with image uploads for post covers/profile photos.
 
-## Tech stack
+## ✨ Features
+
+- ✍️ Create, edit, and browse blog posts
+- 🏷️ Post categories
+- 🔐 User accounts and authentication
+- 🖼️ Image uploads for covers and profile photos
+
+## 🛠️ Tech Stack
 
 - **Backend** (`api/`): Node.js, Express, MongoDB (Mongoose)
 - **Frontend** (`client/`): React (Create React App), React Router
 
-## Structure
+## 📁 Structure
 
 ```
 api/
@@ -22,18 +35,13 @@ client/
   src/index.js  # React entry point
 ```
 
-## Running locally
+## 🚀 Running Locally
 
 ```bash
-cd api
-npm install
-npm start
+cd api && npm install && npm start
 ```
-Requires a `.env` with a MongoDB connection string (see `api/index.js` for
-the expected variable name).
+Requires a `.env` with a MongoDB connection string.
 
 ```bash
-cd client
-npm install
-npm start
+cd client && npm install && npm start
 ```
